@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2B30"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/txtSenior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/txtSenior"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/txtGerenciamento"
+        android:layout_width="256dp"
+        android:layout_height="63dp"
+        android:fontFamily="monospace"
+        android:text="@string/txtGerenciamento"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenior"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/txtBemVindo"
+        android:layout_width="412dp"
+        android:layout_height="40dp"
+        android:background="#E91E63"
+        android:fontFamily="monospace"
+        android:text="@string/txtbBemVindo"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGerenciamento"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/txtOQueFazer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/txtOQueFazer"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBemVindo"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:fontFamily="monospace"
+        android:text="@string/btnCadastrar"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOQueFazer"
+        app:layout_constraintVertical_bias="0.158"
+        app:strokeColor="#E91E63"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/btBuscar"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:fontFamily="monospace"
+        android:text="@string/btnBuscar"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btCadastrar"
+        app:layout_constraintVertical_bias="0.088"
+        app:strokeColor="#E91E63"
+        app:strokeWidth="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

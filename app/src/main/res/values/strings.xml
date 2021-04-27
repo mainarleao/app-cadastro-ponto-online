@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ProjetoFinal</string>
+    <string name="tvBemVindo">Bem Vindo</string>
+    <string name="tvBemVindoLogin">Sistema Senior</string>
+    <string name="tvCartaoPonto">Controle de Ponto Digital</string>
+    <string name="tvSistemaSenior">Sistema Senior</string>
+    <string name="tvPontoDigital">Controle Ponto Digital</string>
+    <string name="tvLogin">Fazer Login</string>
+    <string name="tvLoginUsuario">Usuario:</string>
+    <string name="tvSenhaLogin">Senha:</string>
+    <string name="btLogar">Acessar</string>
+    <string name="tvOU">ou</string>
+    <string name="btRegistrar">Registrar</string>
+    <string name="txtBemVindo">Bem Vindo</string>
+    <string name="txtSenior">Sistema Senior</string>
+    <string name="txtGerenciamento">Gerenciamento e Controle de Ponto</string>
+    <string name="txtbBemVindo">Bem Vindo</string>
+    <string name="txtOQueFazer">O que deseja fazer?</string>
+    <string name="btnCadastrar">Inserir um novo horario</string>
+    <string name="btnBuscar">Buscar Data</string>
+    <string name="txtCadastrar">Cadastrar Novo Horario</string>
+    <string name="txtData">Data</string>
+    <string name="txtEntrada">Entrada</string>
+    <string name="txtIdaIntervalo">Saida Almoço</string>
+    <string name="txtVoltaIntervalo">Volta Almoço</string>
+    <string name="txtSaida">Saida</string>
+    <string name="txtMSG">Mensagem para o gestor</string>
+    <string name="btInserir">Cadastrar</string>
+    <string name="btAlterar">Alterar</string>
+    <string name="btVoltar">Voltar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="edtPesquisaData">Pesquisar por data</string>
+</resources>
